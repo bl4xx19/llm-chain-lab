@@ -1,0 +1,7 @@
+.env
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+backend/app/scripts/experiment_runs/
+backend/app/scripts/validacion_tecnica/

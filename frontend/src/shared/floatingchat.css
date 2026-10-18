@@ -1,0 +1,59 @@
+.floatingchat__bubble {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.floatingchat__bubble:hover {
+  transform: scale(1.06);
+}
+
+.floatingchat__bubble--hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.85);
+}
+
+.floatingchat__scrim {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 17, 21, 0.35);
+  z-index: 998;
+}
+
+.floatingchat__panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 440px;
+  max-width: 92vw;
+  z-index: 999;
+  background: #fff;
+  box-shadow: -12px 0 40px rgba(0, 0, 0, 0.18);
+  transform: translateX(100%);
+  transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.floatingchat__panel--open {
+  transform: translateX(0);
+}
+
+@media (max-width: 560px) {
+  .floatingchat__panel {
+    width: 100vw;
+    max-width: 100vw;
+  }
+}

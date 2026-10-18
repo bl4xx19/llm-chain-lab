@@ -1,0 +1,266 @@
+.guiatab {
+  max-width: 680px;
+}
+
+.guiatab__desc {
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.guiatab__lista {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px 16px 16px 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  margin-bottom: 28px;
+}
+
+.guiatab__lista li {
+  margin-bottom: 10px;
+  color: #333;
+  line-height: 1.4;
+}
+
+.guiatab__catalogo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.guiatab__toggle {
+  display: flex;
+  gap: 4px;
+  background: #f0f2f5;
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.guiatab__toggle-btn,
+.guiatab__toggle-btn--active {
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 12px;
+  background: transparent;
+  color: #666;
+}
+
+.guiatab__toggle-btn--active {
+  background: #fff;
+  color: #1a1a1a;
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.guiatab__catalogo-intro {
+  font-size: 12px;
+  color: #888;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.guiatab__error {
+  color: #a02c2c;
+  font-size: 13px;
+}
+
+.guiatab__card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.guiatab__card-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.guiatab__card-titulo {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.guiatab__card-toggle {
+  font-size: 18px;
+  color: #999;
+}
+
+.guiatab__card-body {
+  padding: 0 16px 16px;
+  border-top: 1px solid #eef0f3;
+}
+
+.guiatab__eslabones {
+  font-size: 11px;
+  color: #888;
+  margin: 12px 0;
+}
+
+.guiatab__seccion {
+  margin-bottom: 14px;
+}
+
+.guiatab__seccion strong {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.guiatab__seccion p {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.guiatab__nota {
+  font-size: 13px;
+  color: #888;
+  margin-top: 20px;
+}
+
+.guiatab__nivel-hint {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.guiatab__niveles {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.guiatab__nivel-btn {
+  background: #1a1d23;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.guiatab__nivel-btn:hover {
+  opacity: 0.85;
+}
+
+.guiatab__badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 3px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.guiatab__badge--low { background: #eaf3ee; color: #2f7355; }
+.guiatab__badge--medium { background: #fdf3e3; color: #a06a11; }
+.guiatab__badge--high { background: #fbe9e3; color: #b8551e; }
+.guiatab__badge--critical { background: #f9e4e4; color: #b13333; }
+.guiatab__badge--tutorial { background: #eef0f4; color: #4b5563; }
+.guiatab__badge--nivel { background: #e8eaee; color: #384152; font-family: var(--font-mono, monospace); }
+
+.guiatab__tutorial {
+  background: #f4f5f7;
+  border: 1px dashed #c8ccd4;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 24px;
+}
+
+.guiatab__tutorial-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.guiatab__tutorial-note {
+  font-size: 11px;
+  color: #888;
+}
+
+.guiatab__tutorial-desc {
+  font-size: 12px;
+  color: #666;
+  margin: 0 0 10px;
+}
+
+.guiatab__card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.guiatab__nivel-multiturno {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #f4f5f7;
+  border-radius: 8px;
+  padding: 6px 8px;
+}
+
+.guiatab__nivel-multiturno-label {
+  font-size: 11px;
+  color: #888;
+  margin-right: 4px;
+}
+
+.guiatab__conceptos {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px 18px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.guiatab__conceptos h4 {
+  margin-top: 0;
+}
+
+.guiatab__concepto {
+  margin-bottom: 12px;
+}
+
+.guiatab__concepto strong {
+  font-size: 13px;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.guiatab__concepto p {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.guiatab__nivel-btn--recon {
+  background: #fff;
+  color: #1a1d23;
+  border: 1.5px dashed #9aa0a8;
+}
+
+.guiatab__nivel-btn--recon:hover {
+  border-color: #1a1d23;
+  opacity: 1;
+}
